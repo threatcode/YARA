@@ -1487,7 +1487,7 @@ int yr_atoms_extract_from_string(
   }
 
   // Recheck the atom quality, in case we have just generated some poor atoms.
-  // https://github.com/VirusTotal/yara/issues/1172
+  // https://github.com/ThreatCode/yara/issues/1172
   for (item = *atoms; item != NULL; item = item->next)
   {
     quality = config->get_atom_quality(config, &item->atom);

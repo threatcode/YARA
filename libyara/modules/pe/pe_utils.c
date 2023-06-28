@@ -85,7 +85,7 @@ PIMAGE_NT_HEADERS32 pe_get_header(const uint8_t* data, size_t data_size)
 PIMAGE_DATA_DIRECTORY pe_get_directory_entry(PE* pe, int entry)
 {
   // Explanation
-  // https://github.com/VirusTotal/yara/issues/1525
+  // https://github.com/ThreatCode/yara/issues/1525
 
   // In Windows, any access to data directories is controlled by the
   // RtlImageDirectoryEntryToData function. This is one of the first checks

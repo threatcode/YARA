@@ -1,4 +1,4 @@
-AC_INIT([yara], [4.3.0], [vmalvarez@virustotal.com])
+AC_INIT([yara], [4.3.0], [vmalvarez@threatcode.com])
 
 AM_SILENT_RULES([yes])
 AC_CONFIG_SRCDIR([cli/yara.c])
@@ -204,7 +204,7 @@ AC_ARG_ENABLE([pb-tests],
         [AC_MSG_ERROR([protobuf compiler "protoc" not found])])
     # AC_CHECK_PROG(PROTOC_GEN_YARA, protoc-gen-yara, protoc-gen-yara)
     # AS_IF([test "x${PROTOC_GEN_YARA}" == "x"],
-    #    [AC_MSG_ERROR([please install https://github.com/VirusTotal/protoc-gen-yara])])
+    #    [AC_MSG_ERROR([please install https://github.com/ThreatCode/protoc-gen-yara])])
     PKG_CHECK_MODULES([PROTOBUF_C], [libprotobuf-c >= 1.0.0])
     AC_CHECK_LIB([protobuf-c], protobuf_c_message_unpack,,
       AC_MSG_ERROR([please install libprotobuf-c library]))

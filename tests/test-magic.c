@@ -30,7 +30,7 @@ int main(int argc, char** argv)
         magic.mime_type() == \"application/vnd.microsoft.portable-executable\" ) }",
       PE32_FILE);
 
-  // Test case for https://github.com/VirusTotal/yara/issues/1663
+  // Test case for https://github.com/ThreatCode/yara/issues/1663
   assert_true_rule_blob(
       "import \"magic\" rule test { condition: \
       magic.type() contains \"Mach-O\" and \

@@ -320,7 +320,7 @@ static void test_parallel_strings()
 //
 // [1]
 // https://yara.readthedocs.io/en/stable/writingmodules.html#accessing-the-scanned-data
-// [2] https://github.com/VirusTotal/yara/issues/1375
+// [2] https://github.com/ThreatCode/yara/issues/1375
 
 int main(int argc, char** argv)
 {

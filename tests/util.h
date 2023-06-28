@@ -46,7 +46,7 @@ extern char compile_error[1024];
 extern int warnings;
 
 // For testing, 1024 means split contiguous memory into max 1024 byte blocks.
-// See https://github.com/VirusTotal/yara/issues/1356
+// See https://github.com/ThreatCode/yara/issues/1356
 extern uint64_t yr_test_mem_block_size;
 
 // If yr_test_mem_block_size is non-zero, this specifies the bytes of the

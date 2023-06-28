@@ -23,11 +23,11 @@ rules based in that data. Like for example:
 
 import "vt_employee"
 
-rule virustotal_employee_under_25
+rule threatcode_employee_under_25
 {
   condition:
     vt_employee.age < 25 and
-    vt_employee.email matches /*.@virustotal\.com/
+    vt_employee.email matches /*.@threatcode\.com/
 }
 
 Neat, right?

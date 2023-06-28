@@ -786,7 +786,7 @@ static void test_strings()
        }",
       "foobarbaz" TEXT_1024_BYTES);
 
-  // https://github.com/VirusTotal/yara/issues/1695
+  // https://github.com/ThreatCode/yara/issues/1695
   assert_false_rule(
       "rule test {\n\
          strings:\n\
@@ -797,7 +797,7 @@ static void test_strings()
        }",
       "AXSERS" TEXT_1024_BYTES);
 
-  // https://github.com/VirusTotal/yara/issues/1757
+  // https://github.com/ThreatCode/yara/issues/1757
   assert_false_rule(
       "rule test {\n\
          strings:\n\
@@ -808,7 +808,7 @@ static void test_strings()
        }",
       "foo");
 
-  // https://github.com/VirusTotal/yara/issues/1660
+  // https://github.com/ThreatCode/yara/issues/1660
   assert_false_rule(
       "rule test {\n\
          strings:\n\
@@ -1824,7 +1824,7 @@ static void test_rule_of()
   assert_match_count(
       "rule a { condition: true } rule b { condition: 1 of (a) }", NULL, 2);
 
-  // https://github.com/VirusTotal/yara/issues/1695
+  // https://github.com/ThreatCode/yara/issues/1695
   assert_match_count(
       "rule a { condition: false } rule b { condition: none of (a) }", NULL, 1);
 
@@ -1879,7 +1879,7 @@ static void test_of()
       "condition: none of them }",
       TEXT_1024_BYTES "AXSERS");
 
-  // https://github.com/VirusTotal/yara/issues/1695
+  // https://github.com/ThreatCode/yara/issues/1695
   assert_false_rule(
       "rule test { strings: $a = \"dummy1\" $b = \"dummy2\" $c = \"ssi\" "
       "condition: none of them }",
@@ -1905,7 +1905,7 @@ static void test_of()
       "condition: none of ($a*, $b*) }",
       TEXT_1024_BYTES "AXSERS");
 
-  // https://github.com/VirusTotal/yara/issues/1695
+  // https://github.com/ThreatCode/yara/issues/1695
   assert_false_rule(
       "rule test { strings: $a1 = \"dummy1\" $b1 = \"dummy2\" $b2 = \"ssi\" "
       "condition: none of ($a*, $b*) }",
@@ -2269,7 +2269,7 @@ void test_for()
       }",
       ERROR_INVALID_VALUE);
 
-  // Test case for https://github.com/VirusTotal/yara/issues/1729
+  // Test case for https://github.com/ThreatCode/yara/issues/1729
   assert_true_rule(
       "rule test { \
         strings: \
@@ -2878,7 +2878,7 @@ static void test_comments()
         condition: !a == 9 }",
       "1234567890" TEXT_1024_BYTES);
 
-  // Test case for https://github.com/VirusTotal/yara/issues/1819
+  // Test case for https://github.com/ThreatCode/yara/issues/1819
   assert_true_rule(
       "rule test { \
         // single line comment with brace }\n\r \

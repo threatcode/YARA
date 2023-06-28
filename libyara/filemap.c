@@ -168,7 +168,7 @@ YR_API int yr_filemap_map_fd(
 // MacOS defines some extra flags for mmap.The MAP_RESILIENT_CODESIGN allows
 // to read from binaries whose code signature is invalid, without this flags
 // any attempt to read from such binaries causes a crash, see:
-// https://github.com/VirusTotal/yara/issues/1309.
+// https://github.com/ThreatCode/yara/issues/1309.
 //
 // Also, reading from files in removable media that becomes unavailable
 // crashes the program if the MAP_RESILIENT_MEDIA flag is not set.

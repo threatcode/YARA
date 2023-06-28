@@ -549,7 +549,7 @@ void test_atom_choose()
           {3, {0xa0, 0x0d, 0x00}},
       });
 
-  // Test case for https://github.com/VirusTotal/yara/issues/1025
+  // Test case for https://github.com/ThreatCode/yara/issues/1025
   assert_hex_atoms(
       "{?? 11 22 33 ?? 55 66}",
       1,
@@ -557,7 +557,7 @@ void test_atom_choose()
           {3, {0x11, 0x22, 0x33}},
       });
 
-  // Test case for https://github.com/VirusTotal/yara/issues/1646
+  // Test case for https://github.com/ThreatCode/yara/issues/1646
   assert_re_atoms(
       "foobar\\.{128}",
       1,
@@ -565,7 +565,7 @@ void test_atom_choose()
           {4, {0x62, 0x61, 0x72, 0x2e}},
       });
 
-  // Test case for https://github.com/VirusTotal/yara/issues/1654
+  // Test case for https://github.com/ThreatCode/yara/issues/1654
   assert_hex_atoms(
       "{(61 61 62 63 64 ?? | 65 ?? ?? 00 00 66)}",
       2,

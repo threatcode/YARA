@@ -1418,7 +1418,7 @@ int _tmain(int argc, const char_t** argv)
 
     args_print_usage(options, 43);
     printf(
-        "\nSend bug reports and suggestions to: vmalvarez@virustotal.com.\n");
+        "\nSend bug reports and suggestions to: vmalvarez@threatcode.com.\n");
 
     return EXIT_SUCCESS;
   }

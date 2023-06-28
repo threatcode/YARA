@@ -10,7 +10,7 @@ they will be prioritized and publicly acknowledged.
  believe you have found a security vulnerability, please submit your report to
 
  ```
- vmalvarez@virustotal.com
+ vmalvarez@threatcode.com
  ```
 
 We'll get back to you as soon as possible (usually in 1-2 days).

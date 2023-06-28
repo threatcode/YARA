@@ -12,7 +12,7 @@ License: Apache License 2.0
 Group: Development/Libraries
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
-Vendor: Victor M. Alvarez <plusvic@gmail.com;vmalvarez@virustotal.com>
+Vendor: Victor M. Alvarez <plusvic@gmail.com;vmalvarez@threatcode.com>
 BuildRequires: gcc python-devel
 BuildRequires: libyara-devel
 

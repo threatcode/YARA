@@ -39,7 +39,7 @@ def yara_deps():
         url = "https://github.com/openssl/openssl/archive/refs/tags/OpenSSL_1_1_1n.tar.gz",
         sha256 = "6b2d2440ced8c802aaa61475919f0870ec556694c466ebea460e35ea2b14839e",
         strip_prefix = "openssl-OpenSSL_1_1_1n",
-        build_file = "@com_github_virustotal_yara//:bazel/openssl.BUILD",
+        build_file = "@com_github_threatcode_yara//:bazel/openssl.BUILD",
     )
     maybe(
         git_repository,
@@ -54,7 +54,7 @@ def yara_deps():
         url = "https://github.com/akheron/jansson/archive/v2.14.tar.gz",
         sha256 = "c739578bf6b764aa0752db9a2fdadcfe921c78f1228c7ec0bb47fa804c55d17b",
         strip_prefix = "jansson-2.14",
-        build_file = "@com_github_virustotal_yara//:bazel/jansson.BUILD",
+        build_file = "@com_github_threatcode_yara//:bazel/jansson.BUILD",
     )
     maybe(
         # When updating this dependency to a more recent version, the version
@@ -64,7 +64,7 @@ def yara_deps():
         url = "https://github.com/file/file/archive/FILE5_38.tar.gz",
         sha256 = "338ebe8cb536a3f86750b4df62be2d382f6da66afdb0087b36a1a3e14ea4baf8",
         strip_prefix = "file-FILE5_38",
-        build_file = "@com_github_virustotal_yara//:bazel/magic.BUILD",
+        build_file = "@com_github_threatcode_yara//:bazel/magic.BUILD",
     )
     maybe(
         git_repository,

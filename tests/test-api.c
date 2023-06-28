@@ -839,7 +839,7 @@ static int xor_key_check(
   return CALLBACK_ERROR;
 }
 
-// https://github.com/VirusTotal/yara/issues/1851
+// https://github.com/ThreatCode/yara/issues/1851
 void test_xor_key_string_in_atom()
 {
   const char* buf = "UihrU\x01i\x01h\x01r\x01"; // "This" xor'ed with 0x01
@@ -901,7 +901,7 @@ void test_xor_key_string_in_atom()
   yr_finalize();
 }
 
-// Test case for https://github.com/VirusTotal/yara/issues/834. Use the same
+// Test case for https://github.com/ThreatCode/yara/issues/834. Use the same
 // scanner for scanning multiple files with a rule that imports the "tests"
 // module. If the unload_module function is called twice an assertion is
 // triggered by the module.

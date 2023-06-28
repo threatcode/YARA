@@ -1641,7 +1641,7 @@ int yr_execute_code(YR_SCAN_CONTEXT* context)
         }
         // Quantifier is 0 or none. This is a special case in which we want
         // exactly 0 strings matching. More information at:
-        // https://github.com/VirusTotal/yara/issues/1695
+        // https://github.com/ThreatCode/yara/issues/1695
         else if (r2.i == 0)
         {
           r1.i = found == 0 ? 1 : 0;
@@ -1733,7 +1733,7 @@ int yr_execute_code(YR_SCAN_CONTEXT* context)
       }
       // Quantifier is 0 or none. This is a special case in which we want
       // exactly 0 strings matching. More information at:
-      // https://github.com/VirusTotal/yara/issues/1695
+      // https://github.com/ThreatCode/yara/issues/1695
       else if (r2.i == 0)
       {
         r1.i = found == 0 ? 1 : 0;
@@ -1808,7 +1808,7 @@ int yr_execute_code(YR_SCAN_CONTEXT* context)
       }
       // Quantifier is 0 or none. This is a special case in which we want
       // exactly 0 strings matching. More information at:
-      // https://github.com/VirusTotal/yara/issues/1695
+      // https://github.com/ThreatCode/yara/issues/1695
       else if (r2.i == 0)
       {
         r1.i = found == 0 ? 1 : 0;

@@ -49,5 +49,5 @@ The \fB-d\fP is used to define external variables. For example:
 .SH SEE ALSO
 \fByara\fP(1)
 .SH AUTHOR
-\fByarac\fP was written by Victor M. Alvarez <vmalvarez@virustotal.com>.
+\fByarac\fP was written by Victor M. Alvarez <vmalvarez@threatcode.com>.
 This manual page was written by Joao Eriberto Mota Filho <eriberto@eriberto.pro.br> for the Debian project (but may be used by others).

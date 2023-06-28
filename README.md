@@ -1,4 +1,4 @@
-[![Join the chat at https://gitter.im/VirusTotal/yara](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/VirusTotal/yara?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/ThreatCode/yara](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ThreatCode/yara?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/7glqg19w4oolm7pr?svg=true)](https://ci.appveyor.com/project/plusvic/yara)
 [![Coverity status](https://scan.coverity.com/projects/9057/badge.svg?flat=1)](https://scan.coverity.com/projects/plusvic-yara)
 
@@ -42,7 +42,7 @@ yara-python extension.
 
 ## Additional resources
 
-Do you use GitHub for storing your YARA rules? [YARA-CI](https://yara-ci.cloud.virustotal.com)
+Do you use GitHub for storing your YARA rules? [YARA-CI](https://yara-ci.cloud.threatcode.com)
 may be a useful addition to your toolbelt. This is GitHub application that provides
 continuous testing for your rules, helping you to identify common mistakes and
 false positives.
@@ -130,7 +130,7 @@ awesome list of [YARA-related stuff](https://github.com/InQuest/awesome-yara).
 * [Trend Micro](https://www.trendmicro.com)
 * [UnpacMe](https://www.unpac.me)
 * [Uptycs Inc](https://www.uptycs.com/)
-* [VirusTotal Intelligence](https://www.virustotal.com/intelligence/)
+* [ThreatCode Intelligence](https://www.threatcode.com/intelligence/)
 * [VMRay](https://www.vmray.com/)
 * [Volexity](https://www.volexity.com/products-overview/volcano/)
 * [We Watch Your Website](https://www.wewatchyourwebsite.com/)

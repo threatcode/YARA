@@ -27,7 +27,7 @@
 
 # Bazel (http://bazel.io/) WORKSPACE file for YARA.
 
-workspace(name = "com_github_virustotal_yara")
+workspace(name = "com_github_threatcode_yara")
 
 load("//:bazel/yara_deps.bzl", "yara_deps")
 
